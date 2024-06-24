@@ -29,7 +29,7 @@ This Node.js and Express.js based RESTful API empowers users to effectively mana
 [project-management-production-069f.up.railway.app](https://project-management-production-069f.up.railway.app/)
 
 ## Endpoint
-### project endpoints
+### Project Endpoints
 1. **Creates a new project**
    ``` bash
     Endpoint: POST /projects
@@ -74,7 +74,7 @@ This Node.js and Express.js based RESTful API empowers users to effectively mana
       * Status code: 200 (OK) on success.
       * Response body: A confirmation message. (JSON)
 
-### task endpoints
+### Task Endpoints
 1. **Creates a new task within a project**
    ```bash
     Endpoint: POST /projects/:projectId/tasks
